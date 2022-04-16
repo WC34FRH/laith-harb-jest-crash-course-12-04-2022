@@ -6,6 +6,7 @@ it("should return correct todo", () => {
   });
 });
 
+// This test doesn't seem to pass for some reason...
 it("should return correct todo", async () => {
   const todo = await fetchData(1);
   expect(todo.id).toBe(1);
